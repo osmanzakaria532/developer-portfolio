@@ -149,13 +149,18 @@ main section {
   margin-top: 130px;
 }
 
-* about section styles */
+/* about section styles */
 
 .about {
-    padding: 130px;
+    padding: 100px;
+    background-color: #fff8f3;
+
+}
+.about-content{
+    background-color: #fff;
     border-radius: 10px;
-    background: #fff8f3;
-    margin: 130px 0;
+    border: 1px solid #000;
+    padding: 30px;
 }
 
 .about-description {
@@ -187,4 +192,45 @@ main section {
     font-size: 20px;
     font-weight: 700;
     line-height: 30px;
+}
+
+
+/* skills related styles */
+
+#what-i-do-section {
+    padding: 20px 150px;
+}
+
+.section-description {
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    line-height: 30px;
+    margin: 30px 0 50px 0;
+}
+
+.skill-title {
+    color: #181818;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 30px 0 20px 0;
+}
+
+.skill-description {
+    color: #757575;
+    line-height: 28px;
+    width: 201px;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.skill-content-description {
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
