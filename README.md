@@ -138,7 +138,7 @@ Contains:
 
 _Add a screenshot here to show what the final site looks like._
 
-<img src="./full-page-image'/full-page-image/developer-portfolio-full-page-image.png" alt="full page image">
+<img src="./full-page-image/full-page-image/developer-portfolio-full-page-image.png" alt="full page image">
 
 ---
 
