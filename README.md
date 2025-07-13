@@ -1,7 +1,5 @@
 # developer-portfolio
 
-
-
 ---
 
 ## 🧠 Code Summary
@@ -76,12 +74,17 @@ Contains:
 ## ⚠️ Issues / Suggestions
 
 1. **Font Awesome Not Linked**
+
    - Add the following in `<head>` to enable icons:
      ```html
-     <script src="https://kit.fontawesome.com/yourkitid.js" crossorigin="anonymous"></script>
+     <script
+       src="https://kit.fontawesome.com/yourkitid.js"
+       crossorigin="anonymous"
+     ></script>
      ```
 
 2. **Broken Anchor Closing**
+
    - In the blog list item:
      ```html
      <li>
@@ -114,12 +117,12 @@ Contains:
 
 ## 📸 Preview Design Elements
 
-| Section | Element | Description |
-|--------|---------|-------------|
-| Header | Logo & Nav | Shows name and menu |
-| Banner | Intro Text | Includes greeting, name, short bio |
-| Banner | Buttons | Download CV & Contact |
-| Images | Developer & Profile | Visual appeal and branding |
+| Section | Element             | Description                        |
+| ------- | ------------------- | ---------------------------------- |
+| Header  | Logo & Nav          | Shows name and menu                |
+| Banner  | Intro Text          | Includes greeting, name, short bio |
+| Banner  | Buttons             | Download CV & Contact              |
+| Images  | Developer & Profile | Visual appeal and branding         |
 
 ---
 
@@ -127,7 +130,15 @@ Contains:
 
 - **HTML5**
 - **CSS3** (linked externally)
-- **Font Awesome (icon library)** *(requires linking)*
+- **Font Awesome (icon library)** _(requires linking)_
+
+---
+
+## 📸 Screenshot (Optional)
+
+_Add a screenshot here to show what the final site looks like._
+
+<img src="./full-page-image'/full-page-image/developer-portfolio-full-page-image.png" alt="full page image">
 
 ---
 
