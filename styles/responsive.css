@@ -83,6 +83,7 @@
     /* flex-direction: column; */
     flex-wrap: wrap;
     text-align: left;
+    gap: 16px;
   }
   .info-title {
     font-size: 16px;
@@ -90,6 +91,38 @@
 
   .info-description {
     font-size: 14px;
+  }
+
+  /* what-i-do-section */
+
+  #what-i-do-section {
+    padding: 20px 12px;
+    padding: 0 12px;
+  }
+
+  .section-description {
+    font-size: 14px;
+    line-height: 20px;
+    margin: 0px 0 0px 0;
+  }
+
+  .skills-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 22px 12px 0 12px;
+  }
+
+  .skill-content-description {
+    padding: 18px 0;
+    text-align: center;
+  }
+  .skill-content-description img {
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  .skill-description {
+    width: auto;
   }
 }
 
@@ -139,5 +172,27 @@
 
   .about {
     padding: 40px;
-}
+  }
+
+  /*  */
+
+  .skills-container {
+    flex-wrap: wrap;
+    justify-content: start;
+    gap: 24px;
+    text-align: center;
+  }
+
+  .skill-description {
+    width: 150px;
+    line-height: 20px;
+  }
+
+  .skill-content-description img {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+  }
 }
