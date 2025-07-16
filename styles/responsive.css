@@ -139,6 +139,7 @@
     margin-top: 34px;
     gap: 50px;
     flex-direction: column;
+    text-align: center;
   }
 
   .resume-colum {
@@ -164,6 +165,46 @@
   }
   .download-cv {
     margin-top: 16px;
+  }
+
+  /* Footer */
+
+  .footer {
+    gap: 33px;
+    margin-top: 0px;
+    padding: 32px 12px;
+    flex-direction: column-reverse;
+  }
+
+  .footer-colum {
+    width: auto;
+  }
+
+  .footer form {
+    margin-top: 18px;
+  }
+
+  .footer form input[type="text"],
+  input[type="email"],
+  form textarea {
+    width: 100%;
+    margin-bottom: 16px;
+    padding: 13px 14px;
+    border: 1px solid #d4d4d4;
+  }
+
+  .btn-primary {
+    width: 100%;
+  }
+
+  .footer-colum:nth-child(1) .section-title,
+  .footer-colum:nth-child(1) .section-description {
+    text-align: center;
+    margin: 16px 0;
+  }
+
+  .social-links {
+    text-align: center;
   }
 }
 
@@ -237,5 +278,30 @@
     -o-border-radius: 50%;
   }
 
-  /*  */
+  /* Resume  */
+  .resume-section {
+    padding: 0 12px;
+    text-align: center;
+  }
+
+  .resume-colum {
+    width: auto;
+  }
+
+  .section-title {
+    font-size: 18px;
+  }
+  .resume-item-description {
+    width: auto;
+    color: #757575;
+    line-height: 20px;
+  }
+
+  /* Footer */
+
+  .footer {
+    gap: 40px;
+    margin-top: 60px;
+    padding: 60px 26px;
+}
 }
