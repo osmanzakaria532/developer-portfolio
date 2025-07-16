@@ -124,6 +124,47 @@
   .skill-description {
     width: auto;
   }
+
+  /* Resume Section */
+
+  .resume-section {
+    padding: 0 12px 22px 12px;
+  }
+  .section-title {
+    font-size: 22px;
+    font-weight: 600;
+  }
+
+  .resume-container {
+    margin-top: 34px;
+    gap: 50px;
+    flex-direction: column;
+  }
+
+  .resume-colum {
+    width: auto;
+  }
+
+  .resume-item-description {
+    width: auto;
+    color: #757575;
+    line-height: 28px;
+  }
+  .resume-colum-title {
+    font-size: 26px;
+    text-align: center;
+  }
+
+  .resume-item-title {
+    font-size: 18px;
+  }
+
+  .resume-item-description {
+    line-height: 22px;
+  }
+  .download-cv {
+    margin-top: 16px;
+  }
 }
 
 /* tablet devices (576 to 991) */
@@ -195,4 +236,6 @@
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
   }
+
+  /*  */
 }
