@@ -52,6 +52,7 @@
   .banner-description {
     font-size: 14px;
     line-height: 20px;
+    margin-bottom: 22px;
   }
 
   .banner .profile-pic {
@@ -61,5 +62,39 @@
 }
 
 /* tablet devices (576 to 991) */
-@media screen and (min-width: 576px) and (max-width: 991px) {
+@media screen and (min-width: 575px) and (max-width: 1024px) {
+  nav {
+    margin: 0 12px;
+    padding-top: 20px;
+  }
+  .nav-title {
+    font-size: 45px;
+    margin-left: 0;
+  }
+
+  .banner {
+    padding: 0;
+    align-items: end;
+  }
+  .banner-content {
+    width: auto;
+  }
+  .banner-img-left {
+    display: none !important;
+  }
+
+  .banner-title {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  .banner-description {
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 20px;
+  }
+  .banner .profile-pic {
+    width: 250px;
+    padding-top: 50px;
+    margin-right: 30px;
+  }
 }
