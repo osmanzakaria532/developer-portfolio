@@ -134,11 +134,23 @@ Contains:
 
 ---
 
-## 📸 Screenshot (Optional)
+## 📸 Screenshot ( DeskTop )
 
-_screenshot here to final site._
 
 <img src="./full-page-image/developer-portfolio-full-page-image.png" alt="full page image">
+
+---
+
+## 📸 Screenshot ( Tablet )
+
+<img src="./full-page-image/tablet-s-full-image.png" alt="Tablet page image">
+
+---
+
+## 📸 Screenshot ( Mobile )
+
+
+<img src="./full-page-image/mobile-s-full-image.png" alt="Mobile page image">
 
 ---
 
